@@ -10,7 +10,7 @@ return [
     'lockout_timeout' => 15, // ip lockout timeout in seconds
 
     'frontend_config' => [
-        'app_name' => 'FileGator',
+        'app_name' => 'PAU-Library',
         'app_version' => APP_VERSION,
         'language' => 'english',
         'logo' => '/dist/img/logo.svg',
