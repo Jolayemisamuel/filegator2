@@ -13,7 +13,7 @@ return [
         'app_name' => 'FileGator',
         'app_version' => APP_VERSION,
         'language' => 'english',
-        'logo' => '/dist/img/logo.svg',
+       'logo' => 'https://res.cloudinary.com/dfu7h5tba/image/upload/v1731311753/logo_dcsusw.png',
         'upload_max_size' => 100 * 1024 * 1024, // 100MB
         'upload_chunk_size' => 1 * 1024 * 1024, // 1MB
         'upload_simultaneous' => 3,
