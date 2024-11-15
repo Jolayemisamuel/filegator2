@@ -14,7 +14,7 @@ return [
         'app_version' => APP_VERSION,
         'language' => 'english',
        'logo' => 'https://res.cloudinary.com/dfu7h5tba/image/upload/v1731311749/logo_ymrz8h.svg',
-        'upload_max_size' => 100 * 1024 * 1024, // 100MB
+        'upload_max_size' => 100 * 1024 * 1024 * 1024, // 1GB
         'upload_chunk_size' => 1 * 1024 * 1024, // 1MB
         'upload_simultaneous' => 3,
         'default_archive_name' => 'archive.zip',
