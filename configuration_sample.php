@@ -87,17 +87,17 @@ return [
             ],
         ],
         'Filegator\Services\Storage\Filesystem' => [
-            'handler' => '\Filegator\Services\Storage\Filesystem',
-            'config' => [
-                'separator' => '/',
-                'config' => [],
-                'adapter' => function () {
-                    return new \League\Flysystem\Adapter\Local(
-                        __DIR__.'/repository'
-                    );
-                },
-            ],
+    'handler' => '\Filegator\Services\Storage\Filesystem',
+    'config' => [
+        'separator' => '/',
+        'config' => [],
+        'adapter' => function () {
+            return new \League\Flysystem\Adapter\Local(
+                '/home/user/filegator-storage' // Persistent directory
+                );
+            },
         ],
+    ],
         'Filegator\Services\Archiver\ArchiverInterface' => [
             'handler' => '\Filegator\Services\Archiver\Adapters\ZipArchiver',
             'config' => [],
